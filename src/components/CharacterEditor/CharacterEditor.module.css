@@ -6,6 +6,7 @@
 
 .maxWidthWrapper {
   width: 65%;
+  position: relative;
 }
 
 .header {
@@ -26,8 +27,17 @@
 }
 
 .characterWrapper {
+  min-height: 500px;
 }
 
 .controlColumn {
   width: 77%;
+}
+
+.persp {
+  position: fixed;
+  top: 65%;
+  height: 40%;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
 }
